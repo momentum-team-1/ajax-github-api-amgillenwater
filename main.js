@@ -13,6 +13,7 @@ fetch("https://api.github.com/users/amgillenwater")
     })
     .then(function(data){
         console.log(data);
+        //the part above is the part I don't really get--once i can console.log and see the data, I know what to do but getting there is trickier
         let nameHeadEl = document.createElement("div")
         nameHeadEl.className = "header-name"
         nameHeadEl.innerText = data.name;
