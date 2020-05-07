@@ -6,8 +6,11 @@ body{
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
+    width: 80%;
 }
-
+.info{
+    width: 30%;
+}
 #title{
     grid-column-start: 1;
     grid-column-end: 5;
@@ -20,5 +23,6 @@ body{
 img{
     width: 70%;
     justify-content: right;
+    border-radius: 50%;
 
 }
